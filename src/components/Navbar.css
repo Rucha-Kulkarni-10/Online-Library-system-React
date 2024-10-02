@@ -1,0 +1,10 @@
+.nav{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.nav a {
+    padding:  10px ;
+    font-size: large;
+    color: white;
+}
