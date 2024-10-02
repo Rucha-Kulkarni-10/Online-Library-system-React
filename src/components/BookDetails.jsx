@@ -4,13 +4,13 @@ import { useParams, Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 const BookDetails = () => {
-  const { id } = useParams(); // Get the book ID from the URL
+  const { id } = useParams(); 
   const books = useSelector((state) => state.books); // Get books from Redux state
 
   // Find the book by ID
   const book = books.find((book) => book.id === parseInt(id));
 
-  // Handle case where book is not found
+  // if book is not found
   if (!book) {
     return <h2>Book not found</h2>;
   }
