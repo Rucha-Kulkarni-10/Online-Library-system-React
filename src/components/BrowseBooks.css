@@ -1,6 +1,6 @@
 
 .container {
-    max-width: 800px;
+    width: 500px;
     margin: 0 auto;
     padding: 40px;
     font-family: Arial, sans-serif;
@@ -12,6 +12,10 @@
   h1 {
     text-align: center;
     color: #333;
+  }
+
+  span p{
+    color: black;
   }
   
   input[type="text"] {
@@ -55,7 +59,7 @@
   }
   
   .Details-div{
-     width: 400px;
+     width: 500px;
      height: auto;
      border: 2px solid brown;
      border-radius: 8px;

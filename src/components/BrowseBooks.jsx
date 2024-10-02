@@ -37,7 +37,7 @@ const BrowseBooks = () => {
           searchedBooks.map((book) => (
             <li key={book.id}>
               <span>
-                <Link to={`/book/${book.id}`}>{book.title}</Link>
+                <Link to={`/book/${book.id}`}>{book.title}</Link> <p>by {book.author}</p>
               </span>
               <Link to={`/book/${book.id}`}> (View Details)</Link>
             </li>
